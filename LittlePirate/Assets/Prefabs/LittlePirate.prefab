@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: -6427810468078884410}
   - component: {fileID: -7216313762233365593}
   - component: {fileID: 3632025131658632891}
-  m_Layer: 7
+  - component: {fileID: -1796157094287909351}
+  m_Layer: 10
   m_Name: LittlePirate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1338023777
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1bb22736b9732154c8a58e4890c5ede9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -153,4 +154,21 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &-1796157094287909351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7368947908467613863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3be7fd56c2e591d4aacacb8a83476b81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4
+  platformLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  Player: {fileID: 7368947908467613863}
