@@ -1996,7 +1996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2069708917}
   - component: {fileID: 2069708916}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GoundCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
